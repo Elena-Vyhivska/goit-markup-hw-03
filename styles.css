@@ -79,10 +79,62 @@ h4 {
 .graybackground-page {
   height: 600px;
 }
-
+.conteiner-zagol {
+  width: 696px;
+  text-align: center;
+  padding-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #fff;
+  text-align: center;
+}
+.button {
+  font-size: 16px;
+  line-height: 30px;
+  background-color: #2196f3;
+  color: #ffffff;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-right: 32px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+}
+.button-radi {
+  margin-top: 30px;
+  text-align: center;
+}
 /*Секция 2 информвция*/
 .information-menu {
   display: flex;
+  width: 1170px;
+  margin-top: 94px;
+}
+
+.information {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  margin-top: 90px;
+}
+.information-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+  margin-top: 10px;
+}
+.info {
+  width: 270px;
+  margin-left: 30px;
+}
+.info :last-child {
+  margin-left: auto;
 }
 /*секция 3 презентация*/
 
@@ -92,6 +144,9 @@ h4 {
 }
 .present-box .box-item + .box-item {
   margin-left: 50px;
+}
+.cont-box {
+  margin-top: 94px;
 }
 /*секция 4 команда*/
 
@@ -109,6 +164,7 @@ h4 {
 /*секция 5 футер*/
 .graybackground {
   height: 252px;
+  margin-top: 78px;
 }
 .conteiner-footer {
   padding-top: 60px;
@@ -117,17 +173,8 @@ h4 {
   margin-top: 9px;
   margin-bottom: 9px;
 }
-
-/*Портфолио кнопки*/
-.portf-button {
-  display: flex;
-  margin-top: 100px;
-  justify-content: center;
-  padding-top: 10px;
-}
-
-.portf-button + .port-but + .port-but + .port-but + .port-but {
-  margin-left: 10px;
+.gray-footer {
+  margin-top: 90px;
 }
 
 /*Портфолио картинки*/
@@ -147,6 +194,30 @@ h4 {
 }
 .feature-list .item-list:nth-last-child(-n + 3) {
   margin-bottom: 0px;
+}
+
+.cont-pictur {
+  margin-top: 20px;
+  margin-right: 24px;
+  margin-bottom: 4px;
+  margin-left: 24px;
+}
+.pictures-page {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  color: #212121;
+}
+.pictures-link {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
+}
+.cont-link {
+  margin-right: 24px;
+  margin-bottom: 20px;
+  margin-left: 24px;
 }
 
 /* ссилки */
@@ -204,58 +275,35 @@ header {
   font-size: 14px;
   line-height: 16px;
 }
-.main-text {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  color: #fff;
-  text-align: center;
-}
-.conteiner-zagol {
-  padding-top: 200px;
-}
+
 /*кнопки*/
-.button {
-  font-size: 16px;
-  line-height: 30px;
-  background-color: #2196f3;
-  color: #ffffff;
-  border-radius: 4px;
-  padding-top: 10px;
-  padding-right: 32px;
-  padding-bottom: 10px;
-  padding-left: 32px;
+/*Портфолио кнопки*/
+.portf-button {
+  display: flex;
+  margin-top: 92px;
+  justify-content: center;
 }
-.button-radi {
-  margin-top: 30px;
-  text-align: center;
+.port-but {
+  margin-left: 10px;
 }
+
+.portf-button + .port-but + .port-but + .port-but + .port-but {
+  margin-left: 10px;
+}
+
 .button-less {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   color: #212121;
   border-radius: 4px;
-  margin-top: 6px;
-  margin-right: 22px;
-  margin-bottom: 6px;
-  margin-left: 22px;
+  padding-top: 6px;
+  padding-right: 22px;
+  padding-bottom: 6px;
+  padding-left: 22px;
 }
 /*инфортмация*/
-.information {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  text-transform: uppercase;
-  margin-top: 90px;
-}
-.information-text {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  color: #757575;
-  margin-top: 10px;
-}
+
 .presentation {
   font-weight: bold;
   font-size: 36px;
@@ -278,16 +326,4 @@ header {
   color: #757575;
   text-align: center;
   margin-top: 10px;
-}
-.pictures-page {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 36px;
-  color: #212121;
-}
-.pictures-link {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-  color: #757575;
 }
