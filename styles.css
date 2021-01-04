@@ -43,6 +43,7 @@ h4 {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  margin-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -112,7 +113,7 @@ h4 {
 .information-menu {
   display: flex;
   width: 1170px;
-  margin-top: 94px;
+  /*margin-top: 94px;*/
 }
 
 .information {
@@ -146,12 +147,12 @@ h4 {
   margin-left: 50px;
 }
 .cont-box {
-  margin-top: 94px;
+  /* margin-top: 94px;*/
 }
 /*секция 4 команда*/
 
 .comanda {
-  margin-top: 94px;
+  /*margin-top: 94px;*/
 }
 .comanda-present {
   display: flex;
