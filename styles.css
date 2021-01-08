@@ -43,7 +43,6 @@ h4 {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -82,6 +81,7 @@ h4 {
 }
 .conteiner-zagol {
   width: 696px;
+
   text-align: center;
   padding-top: 200px;
   margin-left: auto;
