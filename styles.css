@@ -118,6 +118,7 @@ h4 {
   display: flex;
   width: 1170px;
   /*margin-top: 94px;*/
+  padding-top: 94px;
 }
 
 .information {
@@ -125,7 +126,7 @@ h4 {
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
-  margin-top: 90px;
+  padding-top: 30px;
 }
 .information-text {
   font-weight: normal;
@@ -145,18 +146,21 @@ h4 {
 
 .present-box {
   display: flex;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 .present-box .box-item + .box-item {
   margin-left: 50px;
 }
 .cont-box {
   /* margin-top: 94px;*/
+  padding-top: 94px;
 }
 /*секция 4 команда*/
 
 .comanda {
   /*margin-top: 94px;*/
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .comanda-present {
   display: flex;
@@ -169,7 +173,7 @@ h4 {
 /*секция 5 футер*/
 .graybackground {
   height: 252px;
-  margin-top: 78px;
+  /*margin-top: 78px;*/
 }
 .conteiner-footer {
   padding-top: 60px;
@@ -177,11 +181,11 @@ h4 {
   padding-left: 215px;
 }
 .foter-li {
-  margin-top: 9px;
-  margin-bottom: 9px;
+  padding-top: 9px;
+  padding-bottom: 9px;
 }
 .gray-footer {
-  margin-top: 90px;
+ /* margin-top: 90px;*/
 }
 
 /*Портфолио картинки*/
@@ -316,7 +320,7 @@ header {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  margin-top: 188px;
+  
 }
 .presentation-name {
   font-weight: 500;
