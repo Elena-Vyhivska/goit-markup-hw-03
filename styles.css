@@ -167,9 +167,11 @@ h4 {
   margin-top: 50px;
 }
 .comanda-present .com-pres + .com-pres + .com-pres {
-  margin-left: 30px;
+  padding-left: 30px;
 }
-
+.com-pres{
+  padding-left: 30px;
+}
 /*секция 5 футер*/
 .graybackground {
   height: 252px;
@@ -193,6 +195,10 @@ h4 {
   display: flex;
   flex-wrap: wrap;
   padding-top: 56px;
+  
+}
+.item-list{
+  border: 2px solid #EEEEEE;
 }
 
 .feature-list .item-list {
