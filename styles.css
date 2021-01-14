@@ -61,8 +61,8 @@ h4 {
 }
 .site-nav .item {
   margin-right: 50px;
-  padding-top: 21px;
-  padding-bottom: 21px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .site-nav .item:last-child {
@@ -121,7 +121,8 @@ h4 {
 .information-menu {
   display: flex;
   width: 1170px;
-  /*margin-top: 94px;*/
+}
+.box-infor {
   padding-top: 94px;
 }
 
@@ -155,9 +156,9 @@ h4 {
 .present-box .box-item + .box-item {
   margin-left: 50px;
 }
-.cont-box {
-  /* margin-top: 94px;*/
+.box-prez {
   padding-top: 94px;
+  padding-bottom: 94px ;
 }
 /*секция 4 команда*/
 
@@ -180,19 +181,15 @@ h4 {
 /*секция 5 футер*/
 .graybackground {
   height: 252px;
-  /*margin-top: 78px;*/
+  padding-top: 60px;
 }
 .conteiner-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
+ 
  
 }
 .foter-li {
   padding-top: 9px;
   padding-bottom: 9px;
-}
-.gray-footer {
- /* margin-top: 90px;*/
 }
 
 /*Портфолио картинки*/
@@ -239,6 +236,8 @@ h4 {
   font-size: 16px;
   line-height: 30px;
   color: #757575;
+  margin: 0px;
+  
 }
 .cont-link {
   padding-right: 24px;
